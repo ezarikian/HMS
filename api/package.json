@@ -1,0 +1,21 @@
+{
+  "name": "triops-hms-api",
+  "version": "1.0.0",
+  "description": "Hotel management system API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gach87/hms.git"
+  },
+  "scripts": {
+    "start": "npm i && node index.js"
+  },
+  "author": "Guillermo Carrillo",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "date-fns": "^2.6.0"
+  }
+}
